@@ -1,0 +1,20 @@
+
+Faire sujet de correct -- OK
+Tester chaque commande -- OK
+Re-tester envoi de fichiers -- OK
+Enlever debug messages + clean comments
+
+
+3 connection : 2 nc + 1 wee chat works
+
+Symbols tested
+NON C'EST FAUX !@#$%^&*()_+{}|:"?><~`123-=[]\;',./
+
+Leaks tested (removed delete code to check if leaks pid was working) when client leaves
+-> no leaks
+
+JOIN #hihi,#haha
+
+tested channel syntax with ., multiple # etc...
+
+PRIVMSG to multiple users works, not multiple channels on nectat but it is normal, same with free node

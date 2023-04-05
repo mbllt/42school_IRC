@@ -1,0 +1,21 @@
+weechat -t
+
+/server add local 127.0.0.1/8000 -password=XXXX
+/set irc.server.local.username "henry"
+/set irc.server.local.realname "henry"
+/connect local
+
+/nick henry
+/set xfer.file.download_path ~/Downloads/
+
+On other weechat 
+/dcc send henry lol.txt
+
+--------------
+freenode
+
+/server add freenode chat.freenode.net
+/set irc.server.freenode.username "henry"
+/set irc.server.freenode.realname "henry"
+/connect freenode
+
